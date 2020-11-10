@@ -19,6 +19,15 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/', function () {
-    return view('menu');
-});
+/*Route::post('/validar', );
+
+Route::get();*/
+
+
+
+
+
+Route::get('/carlos-bazan', [
+    'uses' => 'pages@carlosBazan',
+    'as' => 'carlosBazan'
+]);
