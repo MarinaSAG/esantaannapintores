@@ -1,8 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Pintores')
 @section('header', 'GRANDES PINTORES')
- @section('content')
-<!--<center>
+@section('content')
+<center>
 <figure class="snip1033">
         <img src="https://www.otroangulo.info/fabricaweb/wp-content/uploads/Felguerez-4.jpg" alt="sample20" />
         <figcaption>
@@ -56,7 +56,7 @@
         <a href="carlos-bazan"></a>
       </figure>
       </center>
-    @stop-->
+    @stop
 
 @section('about', 'Sobre Mi')
 @section('footer')
