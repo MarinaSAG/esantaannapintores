@@ -12,7 +12,7 @@
         <br>
         <label for="password">Password</label>
         <br>
-        <input type="text" name="password">
+        <input type="password" name="password">
         <br>
         <label for="key">Key</label>
         <br>

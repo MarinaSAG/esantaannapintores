@@ -13,8 +13,3 @@
 <body>
  <div class="title" style='margin-right: 500px;  margin-left: 500px; text-align:center'><p>@yield('title')</p>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>

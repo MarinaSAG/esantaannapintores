@@ -12,6 +12,6 @@ class pages extends Controller
     }
 
     public function validarLogin(Request $request){
-        return 'Login exitoso';
+        return view('menu');
     }
 }
