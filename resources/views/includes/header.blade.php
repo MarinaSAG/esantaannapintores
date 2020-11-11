@@ -11,5 +11,5 @@
 
 </head>
 <body>
- <div class="title" style='margin-right: 500px;  margin-left: 500px; text-align:center'><p>@yield('title')</p>
+ <div class="title" style='margin-right: 500px;  margin-left: 500px; text-align:center'><p>@yield('header')</p>
 </div>

@@ -8,6 +8,11 @@ Route::post('/menu', 'pages@validarLogin');
 
 //------------//------------//------------//
 
+Route::get('/home', [
+    'uses' => 'pages@menu',
+    'as' => 'home'
+]);
+
 Route::get('/manuel-felguerez', [
     'uses' => 'pages@manuelFelguerez',
     'as' => 'ManuelFelguerez'

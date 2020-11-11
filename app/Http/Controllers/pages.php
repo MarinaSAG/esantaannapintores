@@ -26,8 +26,24 @@ class pages extends Controller
         ]);
     }
 
+    public function menu(){
+        return view('menu');
+    }
+
+    public function manuelFelguerez(){
+        return view('01-Manuel-Felguerez');
+    }
+
+    public function leonidAfremov(){
+        return view('02-Leonid-Afremov');
+    }
+
+    public function jeanLeonGerome(){
+        return view('03-Jean-Leon-Gerome');
+    }
+
     public function carlosBazan(){
-        return view('01-Carlos-Bazan');
+        return view('04-Carlos-Bazan');
     }
 
     
