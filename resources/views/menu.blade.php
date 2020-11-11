@@ -1,14 +1,8 @@
 @extends('layouts.master')
-@section('title', 'GRANDES PINTORES')
-@section('header', 'GRANDES PINTORES')
-@section('content')
-@section('footer')
-    @parent {{date('Y, M')}} </div>
-@stop
-@extends('layouts.master')
 @section('title', 'Pintores')
 @section('header', 'GRANDES PINTORES')
 @section('content')
+<center>
 <figure class="snip1033">
         <img src="https://www.otroangulo.info/fabricaweb/wp-content/uploads/Felguerez-4.jpg" alt="sample20" />
         <figcaption>
@@ -61,7 +55,9 @@
         <div class="center"><i class="ion-ios-loop-strong"></i></div>
         <a href="Carlos-Bazan.html"></a>
       </figure>
+      </center>
     @stop
+
 @section('footer')
 @section('about', 'Sobre Mi')
     @parent {{date('Y, M')}} </div>

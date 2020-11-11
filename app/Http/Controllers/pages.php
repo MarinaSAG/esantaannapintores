@@ -25,4 +25,15 @@ class pages extends Controller
             'user'=>$request->input('user')
         ]);
     }
+
+    public function carlosBazan(){
+        return view('01-Carlos-Bazan');
+    }
+
+    public function carlosBazan(){
+        return view('01-Carlos-Bazan');
+    }
+
+
+
 }
