@@ -12,6 +12,17 @@ class pages extends Controller
     }
 
     public function validarLogin(Request $request){
-        return view('menu');
+        $user = $request->input('user');
+        $pass = $request->input('password');
+        $key = $request->input('key');
+
+        if ($user === 'marina.santaanna'){
+            $url='menu';
+        } else {
+            $url='admon.login';
+        }
+        return view($url, [
+            'user'=>$request->input('user')
+        ]);
     }
 }
