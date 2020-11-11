@@ -7,8 +7,11 @@ use Illuminate\Http\Request;
 class pages extends Controller
 {
     //
-    public function carlosBazan(){
-        return view('01-Carlos-Bazan');
+    public function login(){
+        return view('admon.login');
     }
 
+    public function validarLogin(Request $request){
+        return 'Login exitoso';
+    }
 }

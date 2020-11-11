@@ -27,7 +27,6 @@ Route::get();*/
 
 
 
-Route::get('/carlos-bazan', [
-    'uses' => 'pages@carlosBazan',
-    'as' => 'carlosBazan'
-]);
+Route::get('/', 'pages@login');
+
+Route::post('/valida', 'pages@validarLogin');
