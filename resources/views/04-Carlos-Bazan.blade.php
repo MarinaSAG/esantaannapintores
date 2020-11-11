@@ -10,6 +10,7 @@
     Entre su más reciente trabajo, se encuentra la obra titulada “Siempre regresaré al lugar que me vio nacer”. El cual fue realizado en el Centro Mexicano de la Tortuga en Mazunte, Oaxaca.
     <br><br>
     Con tan solo 26 años de edad, Bazán Ramos se encuentra demostrando su talento. Por lo que esta oportunidad de trabajar con Disney se ha convertido en la más grande de su carrera. 
+    </center>
     @stop
 @section('footer')
     @parent {{date('Y, M')}} </div>
