@@ -46,7 +46,9 @@ class pages extends Controller
         return view('04-Carlos-Bazan');
     }
 
-    
+    public function about(){
+        return view('sobre-mi');
+    }    
 
 
 

@@ -33,3 +33,8 @@ Route::get('/carlos-bazan', [
     'as' => 'CarlosBazan'
 ]);
 
+Route::get('/about', [
+    'uses' => 'pages@about',
+    'as' => 'about'
+]);
+
